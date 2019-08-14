@@ -5,30 +5,31 @@
 <p><strong>----------</strong></p>
 <pre>
 <code>
-<p>using System;</p>
-<p>&nbsp;</p>
-<p>namespace MyProject.Examples</p>
-<p>{</p>
-<p>&nbsp;&nbsp;&nbsp; class ExampleOne</p>
-<p>&nbsp;&nbsp;&nbsp; {</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; static void Main()</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.Write("Enter 1st food name: ");</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; string name1 = Console.ReadLine();</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int price1 = int.Parse(Console.ReadLine());</p>
-<p>&nbsp;</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.Write("Enter 2nd food name: ");</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; string name2 = Console.ReadLine();</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int price2 = int.Parse(Console.ReadLine());</p>
-<p>&nbsp;</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int total = price1 + price2;</p>
-<p>&nbsp;</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.WriteLine("Total price of {0} and {1} is {2}",name1,name2,total);</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.Write("Total price of "+ name1 + " and "+name2+ " is "+total);</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.ReadKey();</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p>
-<p>&nbsp;&nbsp;&nbsp; }</p>
-<p>}</p>
+using System;
+
+namespace MyProject.Examples
+{
+    class ExampleOne
+    {
+        static void Main()
+        {
+            Console.Write("Enter 1st food name: ");
+            string name1 = Console.ReadLine();
+            int price1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter 2nd food name: ");
+            string name2 = Console.ReadLine();
+            int price2 = int.Parse(Console.ReadLine());
+
+            int total = price1 + price2;
+
+            Console.WriteLine("Total price of {0} and {1} is {2}",name1,name2,total);
+            Console.Write("Total price of "+ name1 + " and "+name2+ " is "+total);
+            Console.ReadKey();
+        }
+    }
+}
+
 </code>
 </pre>
 <p><strong>Output:</strong></p>

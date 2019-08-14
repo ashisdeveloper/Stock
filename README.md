@@ -1,8 +1,5 @@
 <!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
 <p>Input And Output:</p>
-<p>==================================================================================</p>
-<p><strong>Program:</strong></p>
-<p><strong>----------</strong></p>
 <pre><code class='language-cs'>
 namespace MyProject.Examples
 {
@@ -25,7 +22,6 @@ namespace MyProject.Examples
 }
 </code></pre>
 Output:
-----------
 Enter 1st food name: Rice
 20
 Enter 2nd food name: Dal

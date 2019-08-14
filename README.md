@@ -1,5 +1,6 @@
 ## Input And Output:
-<pre><code class='language-cs'>
+<pre><code>
+using System;
 namespace MyProject.Examples
 {
     class ExampleOne

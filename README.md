@@ -1,5 +1,4 @@
-<!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
-<p>Input And Output:</p>
+## Input And Output:
 <pre><code class='language-cs'>
 namespace MyProject.Examples
 {

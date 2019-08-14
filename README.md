@@ -3,8 +3,7 @@
 <p>==================================================================================</p>
 <p><strong>Program:</strong></p>
 <p><strong>----------</strong></p>
-<pre>
-<code>
+```c#
 using System;
 
 namespace MyProject.Examples
@@ -29,9 +28,7 @@ namespace MyProject.Examples
         }
     }
 }
-
-</code>
-</pre>
+```
 <p><strong>Output:</strong></p>
 <p><strong>----------</strong></p>
 <p>Enter 1st food name: Rice</p>

@@ -21,10 +21,10 @@ namespace MyProject.Examples
     }
 }
 </code></pre>
-Output:\
-Enter 1st food name: Rice\
-20\
-Enter 2nd food name: Dal\
-30\
-Total price of Rice and Dal is 50\
-Total price of Rice and Dal is 50\
+Output:<br/>
+Enter 1st food name: Rice<br/>
+20<br/>
+Enter 2nd food name: Dal<br/>
+30<br/>
+Total price of Rice and Dal is 50<br/>
+Total price of Rice and Dal is 50<br/>

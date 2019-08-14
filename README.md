@@ -24,15 +24,15 @@ namespace MyProject.Examples
     }
 }
 </code></pre>
-<p><strong>Output:</strong></p>
-<p><strong>----------</strong></p>
-<p>Enter 1st food name: Rice</p>
-<p>20</p>
-<p>Enter 2nd food name: Dal</p>
-<p>30</p>
-<p>Total price of Rice and Dal is 50</p>
-<p>Total price of Rice and Dal is 50</p>
-<p>&nbsp;</p>
+Output:
+----------
+Enter 1st food name: Rice
+20
+Enter 2nd food name: Dal
+30
+Total price of Rice and Dal is 50
+Total price of Rice and Dal is 50
+
 <p>Data Types:</p>
 <p>==================================================================================</p>
 <table width="721">

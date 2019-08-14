@@ -3,7 +3,7 @@
 <p>==================================================================================</p>
 <p><strong>Program:</strong></p>
 <p><strong>----------</strong></p>
-```csharp
+```c-sharp
 using System;
 
 namespace MyProject.Examples

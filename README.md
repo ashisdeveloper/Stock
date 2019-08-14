@@ -23,7 +23,9 @@ namespace MyProject.Examples
 </code></pre>
 Output:
 Enter 1st food name: Rice
+
 20
+
 Enter 2nd food name: Dal
 30
 Total price of Rice and Dal is 50

@@ -3,6 +3,7 @@
 <p>==================================================================================</p>
 <p><strong>Program:</strong></p>
 <p><strong>----------</strong></p>
+<pre>
 <p>using System;</p>
 <p>&nbsp;</p>
 <p>namespace MyProject.Examples</p>
@@ -27,6 +28,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p>
 <p>&nbsp;&nbsp;&nbsp; }</p>
 <p>}</p>
+</pre>
 <p><strong>Output:</strong></p>
 <p><strong>----------</strong></p>
 <p>Enter 1st food name: Rice</p>

@@ -3,13 +3,9 @@
 <p>==================================================================================</p>
 <p><strong>Program:</strong></p>
 <p><strong>----------</strong></p>
-```csharp
-using (var x = new X())
-{
-    var y = "test";
-    var z = "test";
-}
-```
+<pre><code class='language-cs'>
+Console.WriteLine("Fenced code blocks ftw!");
+</code></pre>
 <p><strong>Output:</strong></p>
 <p><strong>----------</strong></p>
 <p>Enter 1st food name: Rice</p>
